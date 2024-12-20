@@ -1,4 +1,4 @@
-# NOPCommerce (E-commerce AutomationTesting)
+# Automated Testing of E-commerce Website Using Cucumber Framework (E-commerce AutomationTesting)
 
 > A self-developed automation testing project using **Java** for [_NOPCommerce_](https://demo.nopcommerce.com/) E-commerce website.
 
