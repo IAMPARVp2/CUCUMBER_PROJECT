@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="11" time="69.215">
+    <testcase classname="User could register with valid data" name="User register with valid data" time="2.684">
+        <system-out><![CDATA[Given user navigates to registration page...................................passed
+When user enters valid data.................................................passed
+And user click on register button...........................................passed
+Then user registered successfully...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User could log in with valid data" name="User login with valid data" time="1.639">
+        <system-out><![CDATA[Given user navigates to login page..........................................passed
+When user enters email "m_emad@gmail.com" and password "123456".............passed
+And user click on login button..............................................passed
+Then user log in successfully...............................................passed
+And user go to home page....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logged User could search for any product" name="Logged User search for a product" time="1.04">
+        <system-out><![CDATA[When user search for a product "Apple MacBook Pro 13-inch"..................passed
+Then user got relative result of product searched for "Apple MacBook Pro 13-inch".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logged User could switch between currencies US-Euro" name="Logged User switch between currencies US-Euro" time="3.098">
+        <system-out><![CDATA[When user choose a currency from the dropdown on the top left...............passed
+Then user change currency and the price of products converts to the new currency symbol.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logged user could select different Categories" name="Logged user select different Categories" time="1.903">
+        <system-out><![CDATA[When user hover on a main category..........................................passed
+And user select a sub category..............................................passed
+Then user navigate to category page.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logged user could could filter with color" name="Logged user filter with color" time="1.721">
+        <system-out><![CDATA[When user hover on a main category..........................................passed
+And user select a sub category..............................................passed
+And user selects color......................................................passed
+Then user get the result data with the chosen color.........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logged user could select different tags" name="Logged user select different tags" time="2.264">
+        <system-out><![CDATA[When user hover on a main category..........................................passed
+And user select a sub category..............................................passed
+And user selects tag........................................................passed
+Then user get the result data with the chosen tag...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logged user could add different products to Shopping cart" name="Logged user add different products to Shopping cart" time="7.055">
+        <system-out><![CDATA[When user add a product to shopping cart....................................passed
+And user add another product to shopping cart...............................passed
+And user navigate to shopping cart page.....................................passed
+Then user get the added products on the shopping cart.......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logged user could add different products to Wishlist" name="Logged user add different products to Wishlist" time="5.589">
+        <system-out><![CDATA[When user add a product to wishlist.........................................passed
+And user add another product to wishlist....................................passed
+And user navigate to wishlist page..........................................passed
+Then user get the added products on the wishlist............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Logged user could add different products to compare list" name="Logged user add different products to compare list" time="5.087">
+        <system-out><![CDATA[When user add two products to compare list..................................passed
+And user navigate to compare list page......................................passed
+Then user get the added products on the compare list page...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="User could create successful Order" name="User create successful Order" time="12.327">
+        <system-out><![CDATA[When user navigate to shopping cart page....................................passed
+And user accept the terms of service........................................passed
+And user click on checkout button...........................................passed
+And user fill the billing address data......................................passed
+And user continue with default values.......................................passed
+And user confirm the order..................................................passed
+Then user create a successful order.........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
